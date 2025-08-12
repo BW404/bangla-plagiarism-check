@@ -5,7 +5,7 @@ A Bangla plagiarism detection tool that analyzes text for similarities using adv
 ##switch to python 3.10
 
 
-<pre> ```bash
+```bash
 
 # Update & install prerequisites
 sudo apt update
@@ -30,23 +30,23 @@ pyenv global 3.10.13
 # Verify
 python --version
 
-``` </pre>
+```
 
 
 # use Python 3.10 in your project directory only
 
-<pre> ```bash
+```bash
 cd /path/to/your/project
 pyenv local 3.10.13
 python --version 
 
-``` </pre>
+```
 
 
 # Create env
 
-<pre> ```bash
+```bash
 python -m venv venv
 source venv/bin/activate
 
-``` </pre>
+```
